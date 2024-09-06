@@ -1,0 +1,21 @@
+
+table {
+    width: 100%;/* ajustar o tamanho da tabela geral */
+    
+    border-collapse: collapse ; /* junta as linhas da tabela removendo o espaçamento */
+  }
+  th , td{
+    border: 2px solid black;/*espessura das linhas da tabela*/
+    padding: 20px;/*ajustar o tamanho de cada coluna*/
+    text-align: left;/*alinha os textos a esquerda*/
+    margin-top: 90px;
+    width: 50%;
+  }
+  
+  td a {
+    color: red; /* muda a cor do link */
+    
+  }
+  td img{
+    width: 30%;
+  }
